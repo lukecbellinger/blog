@@ -1,0 +1,12 @@
+---
+title: "Welcome To My Blog testing testing making sure this can do more than two lines in a title"
+author: "luke bellinger"
+date: "2026-06-17"
+categories: [politics]
+title-block-banner: thumbnail.jfif
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.

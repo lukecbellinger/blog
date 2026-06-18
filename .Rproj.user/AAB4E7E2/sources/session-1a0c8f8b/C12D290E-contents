@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  description: "A blog built with Quarto"
+  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  title: |
+      <span class="fun-brand">
+        <span class="line">
+          <span><span>l</span></span>
+          <span><span>u</span></span>
+          <span><span>k</span></span>
+          <span><span>e</span></span>
+        </span>
+        <span class="line">
+          <span><span>b</span></span>
+          <span><span>e</span></span>
+          <span><span>l</span></span>
+          <span><span>l</span></span>
+          <span><span>i</span></span>
+          <span><span>n</span></span>
+          <span><span>g</span></span>
+          <span><span>e</span></span>
+          <span><span>r</span></span>
+        </span>
+        <span class="line">
+          <span><span>b</span></span>
+          <span><span>l</span></span>
+          <span><span>o</span></span>
+          <span><span>g</span></span>
+        </span>
+      </span>
+  favicon: images/square texas.png
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/lukecbellinger
+      - icon: bluesky 
+        href: https://bsky.app/profile/lukebellinger.bsky.social
+      - icon: envelope-at-fill
+        href: mailto:luke.bellinger@utexas.edu
+format:
+  html:
+    theme:
+      light: [lux, custom-light.scss]
+      dark: [lux, custom-light.scss ,custom-dark.scss]
+    css: styles.css
+
+

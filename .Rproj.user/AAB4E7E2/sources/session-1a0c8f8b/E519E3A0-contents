@@ -1,0 +1,212 @@
+/*-- scss:defaults --*/
+/* ===== Navbar colors ===== */
+$navbar-fg: #D55E00; 
+$navbar-hl: #009E73; 
+$navbar-brand-color: #e5e7eb;
+$navbar-brand-hover-color: #009E73; 
+$navbar-border-color: transparent;
+$link-color: #009E73; 
+$link-font-family: "Courier New", monospace; 
+
+/*-- scss:rules --*/ 
+@font-face { 
+  font-family: "lmroman"; 
+  src: url("./fonts/lmroman.otf") format("opentype"); 
+  font-weight: normal;
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: "lmmono"; 
+  src: url("./fonts/lmroman.otf") format("opentype"); 
+  font-weight: normal;
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: "lmmonothin"; 
+  src: url("./fonts/lmroman.otf") format("opentype"); 
+  font-weight: normal;
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: "hyperlegible"; 
+  src: url("./fonts/AtkinsonHyperlegibleNext-Light.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal; 
+} 
+/* ==========================================================================
+   NAVBAR THICKNESS RECONSTRUCTION
+   ========================================================================== */
+.navbar {
+  // Reduces the top and bottom padding of the entire navigation bar bar 
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  
+  // Enforces a smaller minimum height barrier if your theme sets one
+  min-height: auto !important; 
+}
+
+.navbar-nav .nav-link {
+  // Squeezes the vertical padding of the navigation text links
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+  text-transform: lowercase !important; 
+}
+
+.navbar-brand {
+  // Keeps the brand text vertically compact inside the thinner navbar layout
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+
+.description { 
+  display: none; 
+} 
+
+h1, h2, h3, h4, h5, h6 { 
+  color: #D55E00; 
+  text-transform: lowercase; 
+} 
+
+.navbar-brand { 
+  font-family: "lmroman", serif; 
+  text-decoration: none; 
+  text-transform: lowercase; 
+  font-weight: 800; 
+  letter-spacing: 0.5em; 
+  font-size: 1.1rem; 
+  line-height: 1; 
+} 
+
+.navbar-nav .nav-link { 
+  font-family: "lmroman", serif; 
+  text-decoration: none; 
+  text-transform: lowercase; 
+  font-weight: 700; 
+  letter-spacing: 0.4em; 
+} 
+
+body { 
+  font-family: "lmroman", serif; 
+} 
+
+body a { 
+  color: #009E73; 
+  font-family: "lmmono", serif; 
+  text-transform: lowercase; 
+  text-decoration: none; 
+} 
+
+body p, body figcaption { 
+  font-family: "hyperlegible", sans-serif; 
+} 
+
+.fun-brand { 
+  display: inline-flex; 
+  flex-direction: column; 
+  align-items: center; 
+  gap: 0.05em; 
+  margin-left: 0.2rem; 
+  font-size: 0.85rem !important
+} 
+
+.fun-brand .line { 
+  display: inline-flex; 
+  gap: 0.06em; 
+} 
+
+.fun-brand .line > span { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 0.6em; 
+} 
+
+.fun-brand .line > span > span { 
+  display: inline-block; 
+  line-height: 1; 
+  transform-origin: center center; 
+} 
+
+.fun-brand .line > span:nth-child(odd) > span { 
+  transform: rotate(12deg); 
+} 
+
+.fun-brand .line > span:nth-child(even) > span { 
+  transform: rotate(348deg); 
+} 
+
+.fun-brand .line > span:nth-child(odd) { 
+  transform: translateX(0.1em) translateY(0.08em); 
+} 
+
+/* ==========================================================================
+   ACTUAL FIX: Flat Selector Placement at End of Document
+   ========================================================================== */
+/* ==========================================================================
+   UPDATED FIX: Square Transparent Gray Box with Serif Typography
+   ========================================================================== */
+.quarto-title-block .quarto-title h1.title {
+  display: inline-block !important;
+  
+  // Transparent gray background rectangle
+  background-color: rgba(60, 60, 60, 0.75) !important; 
+  
+  // Explicitly forces square edges instead of rounded ones
+  border-radius: 0px !important; 
+  
+  // Custom theme typography styling
+  color: #D55E00 !important; 
+  font-family: "lmroman", serif !important; // Changed to serif font choice
+  text-transform: none !important;
+  font-weight: 700; /* bold links */
+  
+  // Layout spacing adjustments
+  padding: 10px 20px !important;
+  margin: 0 !important;
+}
+
+/* ==========================================================================
+   CATEGORY BUTTON STYLING
+   ========================================================================== */
+/* ==========================================================================
+   UPDATED CATEGORY BUTTON STYLING
+   ========================================================================== */
+// Force parent wrappers to full opacity so the link properties are not washed out
+.quarto-categories,
+.quarto-category {
+  opacity: 1 !important; 
+}
+
+// Target the link inside the category elements with your exact style values
+.quarto-category a {
+  display: inline-block !important;
+  
+  // High-contrast transparent gray background
+  background-color: rgba(60, 60, 60, 0.75) !important;
+  
+  // Sizing and weight values
+  font-size: 0.7rem !important; 
+  font-weight: 700 !important; 
+  
+  // Theme coloring and layout filters
+  color: #D55E00 !important; 
+  opacity: 1 !important;
+  
+  // Structural choices to match previous steps (square edges and typography)
+  font-family: "lmmono", serif !important; 
+  text-transform: lowercase !important;
+  text-decoration: none !important;
+  border-radius: 0px !important;
+  border: none !important;
+  margin: 0px !important; 
+}
+
+// Clean hover matching the updated text color
+.quarto-category a:hover {
+  background-color: rgba(80, 80, 80, 0.5) !important;
+  color: #D55E00 !important;
+  opacity: 1 !important;
+}
