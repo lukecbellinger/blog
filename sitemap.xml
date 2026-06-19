@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lukecbellinger.github.io/blog/posts/welcome/index.html</loc>
-    <lastmod>2026-06-18T05:06:20.395Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lukecbellinger.github.io/blog/about.html</loc>
-    <lastmod>2026-06-18T05:06:20.290Z</lastmod>
+    <loc>https://lukecbellinger.github.io/blog/posts/welcome - Copy/index.html</loc>
+    <lastmod>2026-06-19T05:46:58.235Z</lastmod>
   </url>
   <url>
     <loc>https://lukecbellinger.github.io/blog/index.html</loc>
     <lastmod>2026-06-18T05:06:20.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lukecbellinger.github.io/blog/about.html</loc>
+    <lastmod>2026-06-19T06:16:32.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lukecbellinger.github.io/blog/posts/welcome/index.html</loc>
+    <lastmod>2026-06-19T05:49:59.032Z</lastmod>
   </url>
 </urlset>

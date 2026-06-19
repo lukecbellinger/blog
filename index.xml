@@ -35,7 +35,29 @@
 <atom:link href="https://lukecbellinger.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 17 Jun 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>second psot</title>
+  <dc:creator>luke bellinger</dc:creator>
+  <link>https://lukecbellinger.github.io/blog/posts/welcome - Copy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>politics</category>
+  <guid>https://lukecbellinger.github.io/blog/posts/welcome - Copy/</guid>
+  <pubDate>Fri, 19 Jun 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://lukecbellinger.github.io/blog/posts/welcome - Copy/thumbnail.jfif" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Welcome To My Blog testing testing making sure this can do more than two lines in a title</title>
   <dc:creator>luke bellinger</dc:creator>
@@ -56,6 +78,7 @@
   <category>politics</category>
   <guid>https://lukecbellinger.github.io/blog/posts/welcome/</guid>
   <pubDate>Wed, 17 Jun 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://lukecbellinger.github.io/blog/posts/welcome/thumbnail.jfif" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
